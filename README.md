@@ -1,4 +1,5 @@
 # myResearch
-研究用ファイル/Research file
 
-window parameterをjDEで最適化
+
+windowPeocessing/window_jDE/main.pyでwindow parameterをjDEで最適化できます
+
