@@ -4,4 +4,4 @@
 windowPeocessing/window_jDE/main.pyでwindow parameterをjDEで最適化できます  
 pydicomが必要なのでインストールしてください
 
-windowPeocessing/window_jDE/iou.pyのcalcIoU関数でIoUを計算、windowPeocessing/window_jDE/windowing.pyのwindowing関数でwindow処理をしています
+iou.pyのcalcIoU関数でIoUを計算、windowing.pyのwindowing関数でwindow処理をしています
