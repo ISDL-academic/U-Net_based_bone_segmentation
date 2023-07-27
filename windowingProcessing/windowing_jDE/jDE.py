@@ -13,8 +13,7 @@ MIN_VALUE  = 0
 MAX_VALUE  = 1500
 AX = 1
 
-
-# 最適化に使う画像データのパス
+# 最適化に使う画像データのパス 適宜変更してください
 # Spine 
 inputdir = ["../dcm_spine/1-125.dcm","../dcm_spine/1-180.dcm","../dcm_spine/1-235.dcm","../dcm_spine/1-290.dcm","../dcm_spine/1-345.dcm"]
 GTdir = ["../GT/1-125.png","../GT/1-180.png","../GT/1-235.png","../GT/1-290.png","../GT/1-345.png"]
@@ -81,7 +80,6 @@ class Individual:
         current_iou /= n
         #print(current_iou,iou.calcIoU(img,img_GT))
         return 1 - current_iou
-        #return ackley_function(gene)
         
 class jDE:
     def __init__(self,DIMENSION=2,GENERATION=10,POPULATION=100,F_l=0.1,F_u=0.9,gamma1=0.1,gamma2=0.2):
