@@ -19,6 +19,7 @@ def ackley_function(v):
     sum2=np.sum(np.cos(c*v))
     return -a*np.exp(-b*np.sqrt(1.0/dimy*sum1))-np.exp(1.0/dimy*sum2)+a+np.exp(1)
 
+# 通常のDE 例としてベンチマーク関数の最適化
 def excute_DE():
     print("DE")
     D = 10
