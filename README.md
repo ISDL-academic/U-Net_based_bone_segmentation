@@ -3,19 +3,12 @@
 
 windowPeocessing/window_jDE/main.pyでwindow parameterをjDEで最適化できます
 
-(Example)
 # Usage
-## train
 ```
-$ python train.py "./datasets"
+$ python main.py
 ```
-Argument: Tha path to the datasets you want to use.
 
-## test
-```
-$ python test.py
-```
-There is no arguments.
+
 
 ## generate
 ```
