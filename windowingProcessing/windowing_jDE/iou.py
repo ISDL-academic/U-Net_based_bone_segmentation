@@ -101,6 +101,8 @@ def score(estmated_label, train_P, N_clusters):
     # print(fn)
     return tp,fp,fn
 
+# estimated_img:セグメンテーション結果
+# true_img:GT画像
 def calcIoU(estimated_img,true_img):
   height, width = estimated_img.shape[:2]
   est = np.zeros([height*width, ])
