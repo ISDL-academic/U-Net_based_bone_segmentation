@@ -17,6 +17,7 @@ from util import iou as iu
 import csv
 from statistics import stdev, variance
 
+# Dataset path
 spine = "Spine/256"
 femur = "Femur/256"
 bone = spine
