@@ -1,4 +1,15 @@
-# myResearch:CNN based bone segmentation with ASPP and CRF 
+# myResearch:U-Net based bone segmentation with ASPP and CRF 
+
+## U-Net
+
+
+
+## Data pre-processing
+### Optimizs Windowing Parameter with jDE
+You can optimize windwowing parameter,which is the part of dicom parameter,using windowPeocessing/window_jDE/main.py.
+To handle dicom data, you need a libraty called pydicom, so please install that.
+
+The fitness function of jDE is IoU between optimized images and Ground Truth images.
 
 
 windowPeocessing/window_jDE/main.pyでwindow parameterをjDEで最適化できます  
