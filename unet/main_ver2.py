@@ -74,7 +74,7 @@ def train(parser):
     # Create a model
     # l2reg', type=float, default=0.0001
     set_seed(0)
-    model_unet = model.UNet(l2_reg=parser.l2reg,aspp=False).model
+    model_unet = model.UNet(l2_reg=parser.l2reg).model
     print(parser.l2reg)
 
     print("model_unet.inputs IS ",model_unet.inputs)
