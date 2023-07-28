@@ -1,4 +1,4 @@
-# myResearch
+# myResearch:CNN based bone segmentation with ASPP and CRF 
 
 
 windowPeocessing/window_jDE/main.pyでwindow parameterをjDEで最適化できます  
