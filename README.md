@@ -1,7 +1,7 @@
-# myResearch:U-Net based bone segmentation with ASPP
+# myResearch:U-Net based bone segmentation
 
 ## U-Net
-You can execute U-Net or U-Net and ASPP with unet/Unet.ipynb
+You can execute U-Net unet/Unet.ipynb
 
 
 
