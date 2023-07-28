@@ -1,7 +1,7 @@
 # myResearch:U-Net based bone segmentation with ASPP and CRF 
 
 ## U-Net
-
+You can excute U-Net with unet/Unet.ipynb
 
 
 ## Data pre-processing
