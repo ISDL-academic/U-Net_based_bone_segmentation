@@ -1,4 +1,4 @@
-# myResearch:U-Net based bone segmentation
+# U-Net based bone segmentation
 
 ## U-Net
 You can execute U-Net unet/Unet.ipynb
